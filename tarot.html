@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery Tarot</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h1>Three arcana tarot</h1>
+    <div id="intro">
+    <p>This page will deal you a three card hand from the tarot major arcana. </p>
+    <p>If you would like information to help you in interpreting the cards, you could start with    <a href="https://en.wikipedia.org/wiki/Major_Arcana">this page</a>. </p>
+
+    <p>Click the button to get your reading for today:</p>
+  </div>
+    <input type="button" id="button" onclick="startTarot()" value="Get your hand">
+
+
+
+
+    <div class="container">
+      
+            <div class="card">
+              <p class="topLabel">Past</p>
+              <img class="past" src="images/back.jpg">
+              <div id="past">This will be the past description</div>
+            </div>
+            
+            <div class="card">
+              <p class="topLabel">Present</p>
+              <img class="Present" src="images/back.jpg">
+              <div id="present">This will be the present description</div>
+            </div>
+            
+            <div class="card">
+              <p class="topLabel">Future</p>
+              <img class="Future" src="images/back.jpg">
+              <div id="future">This will be the future description</div>
+            </div>
+      
+          </div>
+
+
+
+<script src="main.js"></script>
+
+
+
+    
+</body>
+</html>

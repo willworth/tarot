@@ -1,0 +1,38 @@
+body {
+    background-color: dimgray;
+    color: cornsilk;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifl
+}
+
+
+
+
+
+.container {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content:  space-evenly;
+  }
+
+  /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+ 
+    
+
+  .card {
+    max-height: 69vh;
+      margin: auto;
+    text-align: center;
+  }
+
+  img {
+      padding:.5rem;
+    max-width:30vw;
+    max-height: 69vh;
+  }
+
+  .topLabel {
+  }
